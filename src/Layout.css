@@ -1,0 +1,36 @@
+
+.root {
+    display: 'flex';
+  }
+  
+.gridList {
+    width: 500;
+    height: 450;
+    margin-right: 2px
+  }
+
+.appBar {
+  position: absolute;
+  left: 240px;
+  width: calc(100% - 240px);
+  margin-left: 240px;
+  z-index: 240px;
+}
+
+.drawer {
+  width: 240px;
+  
+}
+
+.drawerPaper {
+  width: 240px;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: whitesmoke
+}
+
+.toolbar {
+  max-inline-size: 240px;
+}
